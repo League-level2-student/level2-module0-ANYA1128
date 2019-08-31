@@ -7,20 +7,18 @@ public class _01_RobotRace {
 	static int a = 0;
 
 	public static void main(String[] args) {
-		Robot[] array = new Robot[5];
+		// 2. create an array of 5 robots.
 
+		Robot[] array = new Robot[5];
+		// 3. use a for loop to initialize the robots.
 		for (int i = 0; i < array.length; i++) {
+		// 4. make each robot start at the bottom of the screen, side by side, facing up
 			a = a + 150;
 			array[i] = new Robot();
 			array[i].setX(a);
 			array[i].setY(550);
 		}
 	}
-	// 2. create an array of 5 robots.
-
-	// 3. use a for loop to initialize the robots.
-
-	// 4. make each robot start at the bottom of the screen, side by side, facing up
 
 	// 5. use another for loop to iterate through the array and make each robot move
 	// a random amount less than 50.
