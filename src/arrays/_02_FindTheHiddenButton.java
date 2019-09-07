@@ -20,11 +20,13 @@ public class _02_FindTheHiddenButton implements ActionListener{
 	JPanel panel;
 	
 	//1. create an array of JButtons. Don't initialize it yet.
-	
+	JButton[]wow=new JButton[10];
 	//2 create an int variable called hiddenButton
-	
+	int hiddenButton;
 	public static void main(String[] args) {
 		new _02_FindTheHiddenButton().start();
+	String numero = JOptionPane.showInputDialog(null,"Enter a positive number");
+	int number = Integer.parseInt(numero);
 	}
 	
 	public void start() {

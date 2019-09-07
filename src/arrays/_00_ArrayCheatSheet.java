@@ -26,7 +26,7 @@ int [] array = new int[50];
 
 for( int i=0;i<array.length;i++) {
 	Random rand = new Random();
-	array[i]= rand.nextInt();
+	array[i]= rand.nextInt(50);
 }
 // 8. without printing the entire array, print only the smallest number in the
 // array
